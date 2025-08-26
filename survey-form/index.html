@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    <form id="survey-form">
+        <label for="name" id="name-label">Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
+        <label for="email" id="email-label">Email</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
+        <label for="number" id="number-label">Age (optional)</label>
+        <input type="number" id="number" min="10" max="99" placeholder="Age">
+        <select id="dropdown">
+            <option></option>
+            <option></option>
+        </select>
+        <input type="radio" name="friend" value="definitely">
+        <input type="radio" name="friend" value="maybe">
+        <input type="checkbox" value="front-end-projects">
+        <input type="checkbox" value="back-end-projects">
+        <textarea placeholder="Enter your comment here..."></textarea>
+        <input type="submit" id="submit">
+    </form>
+</body>
+
+</html>
